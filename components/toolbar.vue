@@ -7,6 +7,7 @@
       <v-btn flat><router-link to="/">Home</router-link></v-btn>
       <v-btn flat><router-link to="/blog">Blog</router-link></v-btn>
       <v-btn flat><router-link to="/about">About</router-link></v-btn>
+      <v-btn flat><router-link to="/admin">Admin</router-link></v-btn>
     </v-toolbar-items>
   </v-toolbar>
 </template>

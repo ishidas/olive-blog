@@ -10,7 +10,6 @@
     </div>
     <h1 class="px-0 font-weight-bold">Olive the Dog</h1>
     <h1 class="px-0 font-weight-light">Story of Incompetent Parents</h1>
-
   </div>
 </template>
 
