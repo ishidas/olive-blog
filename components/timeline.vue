@@ -16,7 +16,6 @@
 <script>
 import { firebaseDB } from '~/plugins/firebase';
 
-
 export default {
   components: {
 

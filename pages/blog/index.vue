@@ -2,7 +2,7 @@
   <div>
     <div>
       <v-img
-        :src="portrait"
+        :src="playpic"
         class=""
         aspect-ratio="2"
         contain
@@ -22,7 +22,7 @@ import Timeline from '@/components/timeline'
     },
     data() {
     return {
-      portrait: '/family.jpg'
+      playpic: '/olive-play.jpg'
     }
   },
   }
