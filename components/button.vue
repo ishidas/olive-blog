@@ -1,6 +1,6 @@
 <template>
-  <v-layout align-center>
-    <v-flex xs12 sm4 text-xs-center>
+  <v-layout right>
+    <v-flex xs12 sm3 text-xs-center>
       <div>
         <v-btn depressed large color="primary" @on="listeners">
           <slot />

@@ -1,5 +1,13 @@
 <template>
   <div>
+    <div>
+      <v-img
+        :src="portrait"
+        class=""
+        aspect-ratio="2"
+        contain
+      />
+    </div>
     <Timeline
       class="home"
     />
@@ -12,6 +20,11 @@ import Timeline from '@/components/timeline'
     components: {
       Timeline
     },
+    data() {
+    return {
+      portrait: '/family.jpg'
+    }
+  },
   }
 </script>
 

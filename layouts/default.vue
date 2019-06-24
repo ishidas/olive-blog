@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <ToolBar />
-    <v-container grid-list-md text-xs-center>
-      <v-layout row wrap>
+    <v-container text-xs-center align-content-space-around>
+      <v-layout align-center justify-space-around row fill-height>
         <v-flex xs12>
           <nuxt />
         </v-flex>
